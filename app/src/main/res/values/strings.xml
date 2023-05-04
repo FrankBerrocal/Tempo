@@ -1,0 +1,427 @@
+<resources>
+    <string name="app_name">TEMPO</string>
+    <string name="title_name">Utility App</string>
+    <string name="desc_radio">Radio</string>
+    <string name="desc_weather">Weather</string>
+    <string name="desc_news">News</string>
+    <string name="desc_time">Time</string>
+    <string name="desc_support">Extra</string>
+    <string name="author">Frank Berrocal</string>
+    <string name="year">2023</string>
+    <string name="weather_city">City</string>
+    <string name="weather_country">Country Code</string>
+    <string name="weather_title">Weather</string>
+    <string name="weather_button">Get Weather</string>
+    <string name="news_title">News</string>
+    <string name="news_button">Get News</string>
+    <string name="news_search">Search News</string>
+    <string name="news_language">Language</string>
+    <string name="news_hint">Subject</string>
+    <string name="news_api_key">c42f015ee92247a29f33afa7e116944e</string>
+    <string name="time_zone">Time Zone</string>
+    <string name="time_title">Time</string>
+    <string name="time_button">Get Time</string>
+    <string name="flag_title">Flagsmart!</string>
+
+    <string-array name="timezones_array">
+        <item>Pacific/Tahiti</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Vancouver</item>
+        <item>America/Whitehorse</item>
+        <item>America/Edmonton</item>
+        <item>America/Hermosillo</item>
+        <item>America/Phoenix</item>
+        <item>America/Belize</item>
+        <item>America/Chicago</item>
+        <item>America/Costa_Rica</item>
+        <item>America/El_Salvador</item>
+        <item>America/Guatemala</item>
+        <item>America/Managua</item>
+        <item>America/Matamoros</item>
+        <item>America/Merida</item>
+        <item>America/Mexico_City</item>
+        <item>America/Monterrey</item>
+        <item>America/Regina</item>
+        <item>America/Tegucigalpa</item>
+        <item>America/Winnipeg</item>
+        <item>America/Bogota</item>
+        <item>America/Cancun</item>
+        <item>America/Cayman</item>
+        <item>America/Detroit</item>
+        <item>America/Fort_Wayne</item>
+        <item>America/Grand_Turk</item>
+        <item>America/Guayaquil</item>
+        <item>America/Havana</item>
+        <item>America/Jamaica</item>
+        <item>America/Lima</item>
+        <item>America/Louisville</item>
+        <item>America/Montreal</item>
+        <item>America/Nassau</item>
+        <item>America/New_York</item>
+        <item>America/Panama</item>
+        <item>America/Port-au-Prince</item>
+        <item>America/Porto_Velho</item>
+        <item>America/Puerto_Rico</item>
+        <item>America/Rio_Branco</item>
+        <item>America/Thunder_Bay</item>
+        <item>America/Toronto</item>
+        <item>America/Caracas</item>
+        <item>America/Halifax</item>
+        <item>America/Martinique</item>
+        <item>America/Port_of_Spain</item>
+        <item>America/Puerto_Rico</item>
+        <item>America/Santo_Domingo</item>
+        <item>Atlantic/Bermuda</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Bahia</item>
+        <item>America/Belem</item>
+        <item>America/Cayenne</item>
+        <item>America/Fortaleza</item>
+        <item>America/Godthab</item>
+        <item>America/Mendoza</item>
+        <item>America/Miquelon</item>
+        <item>America/Montevideo</item>
+        <item>America/Paramaribo</item>
+        <item>America/Recife</item>
+        <item>America/Rosario</item>
+        <item>America/Santiago</item>
+        <item>America/Santo_Domingo</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/St_Johns</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Africa/Monrovia</item>
+        <item>Africa/Sao_Tome</item>
+        <item>Africa/Timbuktu</item>
+        <item>Atlantic/Canary</item>
+        <item>Atlantic/Madeira</item>
+        <item>Atlantic/Reykjavik</item>
+        <item>Atlantic/St_Helena</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Andorra</item>
+        <item>Europe/Athens</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Budapest</item>
+        <item>Europe/Copenhagen</item>
+        <item>Europe/Dublin</item>
+        <item>Europe/Gibraltar</item>
+        <item>Europe/Helsinki</item>
+        <item>Europe/Isle_of_Man</item>
+        <item>Europe/Istanbul</item>
+        <item>Europe/Jersey</item>
+        <item>Europe/Kiev</item>
+        <item>Europe/Lisbon</item>
+        <item>Europe/London</item>
+        <item>Europe/Luxembourg</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Malta</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Monaco</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Oslo</item>
+        <item>Europe/Paris</item>
+        <item>Europe/Prague</item>
+        <item>Europe/Riga</item>
+        <item>Europe/Rome</item>
+        <item>Europe/San_Marino</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Sofia</item>
+        <item>Europe/Stockholm</item>
+        <item>Europe/Vatican</item>
+        <item>Europe/Vienna</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Zagreb</item>
+        <item>Europe/Zurich</item>
+        <item>Indian/Antananarivo</item>
+        <item>Indian/Christmas</item>
+        <item>Indian/Cocos</item>
+        <item>Indian/Comoro</item>
+        <item>Indian/Maldives</item>
+        <item>Indian/Mauritius</item>
+        <item>Indian/Reunion</item>
+        <item>Iran</item>
+        <item>Israel</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Kwajalein</item>
+        <item>Libya</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Easter</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Galapagos</item>
+        <item>Pacific/Guadalcanal</item>
+        <item>Pacific/Guam</item>
+        <item>Pacific/Honolulu</item>
+        <item>Pacific/Marquesas</item>
+        <item>Pacific/Pitcairn</item>
+        <item>Pacific/Samoa</item>
+        <item>Pacific/Tahiti</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Singapore</item>
+        <item>Turkey</item>
+        <item>UTC</item>
+        <item>Zulu</item>
+    </string-array>
+    <string name="radio_title">Radio</string>
+    <string name="radio_button">Get Stations</string>
+    <string name="radio_country">Search</string>
+    <string name="radio_station">Station</string>
+    <string name="radio_hint">Selection</string>
+    <string name="radio_select">Select</string>
+    <string name="pay_message">Thank you for your support</string>
+    <string name="pay_title">PayPal</string>
+    <string name="pay_button">Open PayPal</string>
+    <string name="pay_amount">Amount</string>
+    <string name="pay_hint">$</string>
+
+    <string name="tab_label1">PayPal</string>
+    <string name="tab_label2">Tic Tac Toe</string>
+    <string name="tab_label3">Flagsmart!</string>
+    <string-array name="countrycodes_array">
+        <item>AF, Afghanistan</item>
+        <item>AL, Albania</item>
+        <item>DZ, Algeria</item>
+        <item>AD, Andorra</item>
+        <item>AO, Angola</item>
+        <item>AG, Antigua and Barbuda</item>
+        <item>AR, Argentina</item>
+        <item>AM, Armenia</item>
+        <item>AU, Australia</item>
+        <item>AT, Austria</item>
+        <item>AZ, Azerbaijan</item>
+        <item>BS, Bahamas</item>
+        <item>BH, Bahrain</item>
+        <item>BD, Bangladesh</item>
+        <item>BB, Barbados</item>
+        <item>BY, Belarus</item>
+        <item>BE, Belgium</item>
+        <item>BZ, Belize</item>
+        <item>BJ, Benin</item>
+        <item>BT, Bhutan</item>
+        <item>BO, Bolivia (Plurinational State of)</item>
+        <item>BA, Bosnia and Herzegovina</item>
+        <item>BW, Botswana</item>
+        <item>BR, Brazil</item>
+        <item>BN, Brunei Darussalam</item>
+        <item>BG, Bulgaria</item>
+        <item>BF, Burkina Faso</item>
+        <item>BI, Burundi</item>
+        <item>KH, Cambodia</item>
+        <item>CM, Cameroon</item>
+        <item>CA, Canada</item>
+        <item>CV, Cape Verde</item>
+        <item>CF, Central African Republic</item>
+        <item>TD, Chad</item>
+        <item>CL, Chile</item>
+        <item>CN, China</item>
+        <item>CO, Colombia</item>
+        <item>KM, Comoros</item>
+        <item>CG, Congo</item>
+        <item>CR, Costa Rica</item>
+        <item>CI, Côte dIvoire</item>
+        <item>HR, Croatia</item>
+        <item>CU, Cuba</item>
+        <item>CY, Cyprus</item>
+        <item>CZ, Czechia</item>
+        <item>DK, Denmark</item>
+        <item>DJ, Djibouti</item>
+        <item>DM, Dominica</item>
+        <item>DO, Dominican Republic</item>
+        <item>EC, Ecuador</item>
+        <item>EG, Egypt</item>
+        <item>SV, El Salvador</item>
+        <item>GQ, Equatorial Guinea</item>
+        <item>ER, Eritrea</item>
+        <item>EE, Estonia</item>
+        <item>ET, Ethiopia</item>
+        <item>FJ, Fiji</item>
+        <item>FI, Finland</item>
+        <item>FR, France</item>
+        <item>GA, Gabon</item>
+        <item>GM, Gambia</item>
+        <item>GE, Georgia</item>
+        <item>DE, Germany</item>
+        <item>GH, Ghana</item>
+        <item>GR, Greece</item>
+        <item>GD, Grenada</item>
+        <item>GT, Guatemala</item>
+        <item>GN, Guinea</item>
+        <item>GW, Guinea-Bissau</item>
+        <item>GY, Guyana</item>
+        <item>HT, Haiti</item>
+        <item>HN, Honduras</item>
+        <item>HU, Hungary</item>
+        <item>IS, Iceland</item>
+        <item>IN, India</item>
+        <item>ID, Indonesia</item>
+        <item>IR, Iran (Islamic Republic of)</item>
+        <item>IQ, Iraq</item>
+        <item>IE, Ireland</item>
+        <item>IL, Israel</item>
+        <item>IT, Italy</item>
+        <item>JM, Jamaica</item>
+        <item>JP, Japan</item>
+        <item>JO, Jordan</item>
+        <item>KZ, Kazakhstan</item>
+        <item>KE, Kenya</item>
+        <item>KI, Kiribati</item>
+        <item>KW, Kuwait</item>
+        <item>KG, Kyrgyzstan</item>
+        <item>LA, Lao Peoples Democratic Republic</item>
+        <item>LV, Latvia</item>
+        <item>LB, Lebanon</item>
+        <item>LS, Lesotho</item>
+        <item>LR, Liberia</item>
+        <item>LY, Libya</item>
+        <item>LI, Liechtenstein</item>
+        <item>LT, Lithuania</item>
+        <item>LU, Luxembourg</item>
+        <item>MG, Madagascar</item>
+        <item>MW, Malawi</item>
+        <item>MY, Malaysia</item>
+        <item>MV, Maldives</item>
+        <item>ML, Mali</item>
+        <item>MT, Malta</item>
+        <item>MH, Marshall Islands</item>
+        <item>MQ, Martinique</item>
+        <item>MR, Mauritania</item>
+        <item>MU, Mauritius</item>
+        <item>MX, Mexico</item>
+        <item>FM, Micronesia (Federated States of)</item>
+        <item>MD, Moldova (Republic of)</item>
+        <item>MC, Monaco</item>
+        <item>MN, Mongolia</item>
+        <item>ME, Montenegro</item>
+        <item>MA, Morocco</item>
+        <item>MZ, Mozambique</item>
+        <item>MM, Myanmar</item>
+        <item>NA, Namibia</item>
+        <item>NR, Nauru</item>
+        <item>NP, Nepal</item>
+        <item>NL, Netherlands</item>
+        <item>NZ, New Zealand</item>
+        <item>NI, Nicaragua</item>
+        <item>NE, Niger</item>
+        <item>NG, Nigeria</item>
+        <item>KP, Korea (Democratic Peoples Republic of)</item>
+        <item>NO, Norway</item>
+        <item>OM, Oman</item>
+        <item>PK, Pakistan</item>
+        <item>PW, Palau</item>
+        <item>PS, Palestine, State of</item>
+        <item>PA, Panama</item>
+        <item>PG, Papua New Guinea</item>
+        <item>PY, Paraguay</item>
+        <item>PE, Peru</item>
+        <item>PH, Philippines</item>
+        <item>PL, Poland</item>
+        <item>PT, Portugal</item>
+        <item>QA, Qatar</item>
+        <item>KR, Korea (Republic of)</item>
+        <item>MD, Moldova (Republic of)</item>
+        <item>RO, Romania</item>
+        <item>RU, Russian Federation</item>
+        <item>RW, Rwanda</item>
+        <item>KN, Saint Kitts and Nevis</item>
+        <item>LC, Saint Lucia</item>
+        <item>VC, Saint Vincent and the Grenadines</item>
+        <item>WS, Samoa</item>
+        <item>SM, San Marino</item>
+        <item>ST, Sao Tome and Principe</item>
+        <item>SA, Saudi Arabia</item>
+        <item>SN, Senegal</item>
+        <item>RS, Serbia</item>
+        <item>SC, Seychelles</item>
+        <item>SL, Sierra Leone</item>
+        <item>SG, Singapore</item>
+        <item>SK, Slovakia</item>
+        <item>SI, Slovenia</item>
+        <item>SB, Solomon Islands</item>
+        <item>SO, Somalia</item>
+        <item>ZA, South Africa</item>
+        <item>ES, Spain</item>
+        <item>LK, Sri Lanka</item>
+        <item>SD, Sudan</item>
+        <item>SR, Suriname</item>
+        <item>SE, Sweden</item>
+        <item>CH, Switzerland</item>
+        <item>SZ, Eswatini</item>
+        <item>SY, Syrian Arab Republic</item>
+        <item>TJ, Tajikistan</item>
+        <item>TZ, Tanzania, United Republic of</item>
+        <item>TH, Thailand</item>
+        <item>TL, Timor-Leste</item>
+        <item>TG, Togo</item>
+        <item>TK, Tokelau</item>
+        <item>TO, Tonga</item>
+        <item>TT, Trinidad and Tobago</item>
+        <item>TN, Tunisia</item>
+        <item>TR, Turkey</item>
+        <item>TM, Turkmenistan</item>
+        <item>TV, Tuvalu</item>
+        <item>UG, Uganda</item>
+        <item>UA, Ukraine</item>
+        <item>AE, United Arab Emirates</item>
+        <item>GB, United Kingdom of Great Britain and Northern Ireland</item>
+        <item>US, United States of America</item>
+        <item>UY, Uruguay</item>
+        <item>UZ, Uzbekistan</item>
+        <item>VU, Vanuatu</item>
+        <item>VE, Venezuela (Bolivarian Republic of)</item>
+        <item>VN, Viet Nam</item>
+        <item>YE, Yemen</item>
+        <item>ZM, Zambia</item>
+        <item>ZW, Zimbabwe</item>
+    </string-array>
+
+    <string-array name="languagecodes_array">
+        <item>ar, Arabic</item>
+        <item>bn, Bengali</item>
+        <item>en, English</item>
+        <item>es, Spanish</item>
+        <item>hi, Hindi</item>
+        <item>ja, Japanese</item>
+        <item>pa, Punjabi</item>
+        <item>pt, Portuguese</item>
+        <item>ru, Russian</item>
+        <item>zh, Chinese</item>
+    </string-array>
+
+
+    <string name="title_label">Tic Tac Toe</string>
+    <string name="delivery_label">Welcome</string>
+    <string name="editText_label">Enter your Message</string>
+    <string name="author_label">Frank Berrocal ©2023</string>
+    <string name="palyer1_label">Player 1</string>
+    <string name="player2_label">Player 2</string>
+
+
+    <!--App information-->
+    <string name="button_Main">START</string>
+
+    <string name="aboutMessage">About the App:\nTempo has been created as a localized, useful resource\nthat provides information about the places you will visit.\n\n\nAbout the Developer:\nFrank Berrocal is an iOS, Java, C#, SQL programmer trained in project management and Scrum.\n\n\nAll rights reserved.</string>
+    <string name="infoMessage">Welcome to Tempo!\n\nTempo has been designed with travelers in mind\n\nAll your basic tools in one place!\n\n\nCheck the weather, time, news, and even entertain yourself or listen to the radio.\n\n</string>
+    <string name="helpMessage">Want to know how to use Tempo?\n\nThis is the right place!\n\nTempo was created to organize your access to local information while traveling.\n\nAll the tools require access to the internet.\n\n</string>
+
+    <string name="title_activity_Info">More Information</string>
+    <string name="title_activity_Help">Instructions</string>
+    <string name="title_activity_About">About this App</string>
+    <string name="title_activity_Game">Game</string>
+    <string name="title_activity_Won">Victory!</string>
+
+    <string name="countr1">1</string>
+    <string name="countr2">2</string>
+    <string name="countr3">3</string>
+    <string name="countr4">4</string>
+    <string name="next">Next</string>
+    <string name="score">Score</string>
+
+    <string name="congratulations">Congratulations, You\'ve Won!!!!</string>
+    <string name="ending">Keep testing your knowledge and discover even more flags from around the world! Have fun learning!</string>
+</resources>

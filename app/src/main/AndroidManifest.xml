@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tempo"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity_info"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_help"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_about"
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_flagsmart"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_won"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_support"
+            android:exported="false"
+            android:label="Support"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:parentActivityName=".activity_main"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_time"
+            android:exported="false"
+            android:label="Time"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:parentActivityName=".activity_main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_news"
+            android:exported="false"
+            android:label="News"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:parentActivityName=".activity_main"
+            android:usesCleartextTraffic="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_weather"
+            android:exported="false"
+            android:label="Weather"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:parentActivityName=".activity_main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_radio"
+            android:exported="false"
+            android:label="Radio"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:parentActivityName=".activity_main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.finalproject_fberrocal.activity_main" />
+        </activity>
+        <activity
+            android:name=".activity_main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
